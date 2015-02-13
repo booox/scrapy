@@ -14,7 +14,7 @@ def get_html(url):
     r = requests.get(url)
     html = r.content
     
-    return html
+    return html # test
 
 def get_page_num(url):
     
